@@ -41,6 +41,23 @@
   add Esther Potato p/555555 e/esther@notreal.potato
   list
 
+  # check if list displays in ascending order
+  clear
+  add Esther Potato p/555555 e/esther@notreal.potato
+  add Dickson Ee e/dickson@nus.edu.sg p/444444
+  add Charlie Dickson e/charlie.d@nus.edu.sg p/333333
+  add Betsy Choo p/222222 e/benchoo@nus.edu.sg
+  add Adam Brown p/111111 e/adam@gmail.com
+  list abc
+
+  # reset back to normal order
+  clear
+  add Adam Brown p/111111 e/adam@gmail.com
+  add Betsy Choo p/222222 e/benchoo@nus.edu.sg
+  add Charlie Dickson e/charlie.d@nus.edu.sg p/333333
+  add Dickson Ee e/dickson@nus.edu.sg p/444444
+  add Esther Potato p/555555 e/esther@notreal.potato
+
 ##########################################################
 # test find persons command
 ##########################################################
